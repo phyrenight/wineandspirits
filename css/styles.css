@@ -1,0 +1,13 @@
+/*styles.css*/
+
+header {
+	text-align: center;
+}
+
+.item {
+	display: inline-block;
+}
+
+footer nav{
+	text-align: center;
+} 
