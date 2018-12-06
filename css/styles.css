@@ -4,10 +4,31 @@ header {
 	text-align: center;
 }
 
-.item {
-	display: inline-block;
+
+.row {
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
 }
+
+.item {
+	width: 230px;
+	height: 230px;
+	background-color: green;
+	margin:5px 5px 5px 5px;
+}
+
 
 footer nav{
 	text-align: center;
-} 
+}
+
+
+@media (max-width: 360px){
+	.row{
+		flex-direction: column;
+	}
+	.item{
+		margin: 5px auto;
+	}
+}
