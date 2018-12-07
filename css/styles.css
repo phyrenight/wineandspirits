@@ -4,7 +4,9 @@ header {
 	text-align: center;
 }
 
-
+a + a {
+	margin-left: 3%;
+}
 .row {
 	display: flex;
 	justify-content: space-evenly;
@@ -18,7 +20,9 @@ header {
 	margin:5px 5px 5px 5px;
 }
 
-
+.price{
+	text-align: right;
+}
 footer nav{
 	text-align: center;
 }
