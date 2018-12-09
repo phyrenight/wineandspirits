@@ -2,10 +2,13 @@
 
 header {
     text-align: center;
+    background-image: url("../imgs/main_photo.jpeg");
+    height: 330px;
 }
 
 h1 {
     font-family: 'Courgette', cursive;
+    color: white;
 }
 a + a {
     margin-left: 3%;
