@@ -2,7 +2,7 @@
 
 header {
     text-align: center;
-    background-image: url("../imgs/main_photo.jpeg");
+    background: url("../imgs/main_photo.jpeg") blue;
     height: 330px;
 }
 
