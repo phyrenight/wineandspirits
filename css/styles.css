@@ -1,7 +1,7 @@
 /*styles.css*/
-html {
-    background: #FFE4C4;
-}
+/*html {
+    background: #FFDEAD; /* navajowhite 
+}*/
 
 header {
     text-align: center;
@@ -36,7 +36,6 @@ a + a {
 .item {
     width: 230px;
     height: 230px;
-    background-color: rgba(255, 255, 255, .5);
     margin:5px 5px 5px 5px;
 }
 
