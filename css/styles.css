@@ -1,13 +1,19 @@
 /*styles.css*/
 html {
-    background: green;
+    background: #FFE4C4;
 }
+
 header {
     text-align: center;
     background: url("../imgs/main_photo.jpeg") blue;
     background-size: contain;
-    height: 330px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
+
+
 
 h1 {
     font-family: 'Courgette', cursive;
